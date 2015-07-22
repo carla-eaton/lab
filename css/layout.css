@@ -8,7 +8,7 @@
    TOC:
    a. General Styles
    b. Header Styles
-   c. About Section
+   c. research Section
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/bg.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -66,7 +66,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #fff;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -74,7 +74,14 @@ header .banner-text h3 {
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
+   font-weight: bolder;
+   padding: 10px;
 }
+
+header .banner-text h3 a{
+	border: 1px solid white;
+}
+
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
@@ -183,51 +190,56 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
-/* c. About Section
+/* c. research Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#research {
    background: #2B2B2B;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#research a, #research a:visited  { color: #fff; }
+#research a:hover, #research a:focus { color: #11ABB0; }
 
-#about h2 {
+#research h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#about p {
+#research p {
    line-height: 30px;
    color: #7A7A7A;
 }
-#about .profile-pic {
+#research .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   /*height: 120px;*/
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
+#research .contact-details { width: 41.66667%; }
+#research .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+#research .main-col { padding-right: 5%; }
+#research .download .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+#research .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+#research .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+
+#research .contact-details .address .highlight{
+	font-weight: bold;
+	color: #fff;
 }
 
 
